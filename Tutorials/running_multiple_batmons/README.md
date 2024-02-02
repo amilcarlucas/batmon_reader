@@ -42,17 +42,19 @@ For example, running two BatMons on the same bus:
 As of ArduPilot 4.2.0, multiple smart batteries with different SMBus addresses can be used on the same bus.
 
 For example, using params   
-``BATT_I2C_ADDR = 11``
-``BATT_I2C_BUS = 2``
-``BATT_MONITOR = 19: Rotoye``
+```
+BATT_I2C_ADDR = 11
+BATT_I2C_BUS = 2
+BATT_MONITOR = 19: Rotoye
 
-``BATT2_I2C_ADDR = 11``
-``BATT2_I2C_BUS = 3``
-``BATT2_MONITOR = 19: Rotoye``
+BATT2_I2C_ADDR = 11
+BATT2_I2C_BUS = 3
+BATT2_MONITOR = 19: Rotoye
 
-``BATT3_I2C_ADDR = 12``
-``BATT3_I2C_BUS = 3``
-``BATT3_MONITOR = 19: Rotoye``
+BATT3_I2C_ADDR = 12
+BATT3_I2C_BUS = 3
+BATT3_MONITOR = 19: Rotoye
+```
 
 Would allow for using three Batmons on seperate external I2C busses
 
